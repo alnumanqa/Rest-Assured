@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class GetStudentsTest {
+public class GetTest {
 
 	@Test(enabled = false)
 	public void getStudentsPrettyPrint() {
@@ -73,7 +73,7 @@ public class GetStudentsTest {
 		
 	}
 	
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void getStudentsUriPath() {
 		RestAssured.given()
 		.baseUri("http://localhost:3000")

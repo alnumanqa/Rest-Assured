@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-08T00:04:21 EST" name="Default suite" finished-at="2023-03-08T00:04:22 EST" duration-ms="825">
+  <suite started-at="2023-03-09T23:54:14 EST" name="Default suite" finished-at="2023-03-09T23:54:14 EST" duration-ms="728">
     <groups>
     </groups>
-    <test started-at="2023-03-08T00:04:21 EST" name="Default test" finished-at="2023-03-08T00:04:22 EST" duration-ms="825">
-      <class name="unitTest.DeleteTest">
-        <test-method signature="deleteTest()[pri:0, instance:unitTest.DeleteTest@41e1e210]" started-at="2023-03-08T00:04:21 EST" name="deleteTest" finished-at="2023-03-08T00:04:22 EST" duration-ms="804" status="PASS">
+    <test started-at="2023-03-09T23:54:14 EST" name="Default test" finished-at="2023-03-09T23:54:14 EST" duration-ms="728">
+      <class name="misc.JsonPathExample">
+        <test-method is-config="true" signature="init()[pri:0, instance:misc.JsonPathExample@6631f5ca]" started-at="2023-03-09T23:54:14 EST" name="init" finished-at="2023-03-09T23:54:14 EST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteTest -->
-      </class> <!-- unitTest.DeleteTest -->
+        </test-method> <!-- init -->
+        <test-method signature="jsonPathGetList()[pri:0, instance:misc.JsonPathExample@6631f5ca]" started-at="2023-03-09T23:54:14 EST" name="jsonPathGetList" finished-at="2023-03-09T23:54:14 EST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonPathGetList -->
+      </class> <!-- misc.JsonPathExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="unitTest.DeleteTest">
+      <class name="funcitionalTest.PostStudentsTest">
         <methods>
-          <include name="deleteTest"/>
+          <include name="postAStudent"/>
+          <include name="init"/>
         </methods>
-      </class> <!-- unitTest.DeleteTest -->
+      </class> <!-- funcitionalTest.PostStudentsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

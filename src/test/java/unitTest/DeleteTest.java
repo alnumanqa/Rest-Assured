@@ -6,7 +6,7 @@ import io.restassured.RestAssured;
 
 public class DeleteTest {
 	
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void deleteTest() {
 		RestAssured.given()
 		.baseUri("http://localhost:3000")

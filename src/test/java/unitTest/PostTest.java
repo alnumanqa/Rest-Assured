@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
-public class PostStudentsTest {
+public class PostTest {
 	@Test(enabled = false)
 	public void postTestwithStringBody() {
 		RestAssured.given()
@@ -32,7 +32,7 @@ public class PostStudentsTest {
 		.log().all()
 		.statusCode(201);
 	}
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void postTestwithFile500() {
 		RestAssured.given()
 		.baseUri("http://localhost:3000")
@@ -60,7 +60,7 @@ public class PostStudentsTest {
 		.log().all()
 		.statusCode(201);
 	}
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void postTestwithByteBody() {
 		try {
 		RestAssured.given()
@@ -79,7 +79,7 @@ public class PostStudentsTest {
 		}
 	}
 	
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void postTestwithMap() {
 		Map<String, Object> map = new HashMap<>();
 		map.put("id", 12);

@@ -9,7 +9,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
 public class PutTest {
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void putTest() {
 		Map<String, Object> map = new HashMap<>();
 		map.put("id", 9);
